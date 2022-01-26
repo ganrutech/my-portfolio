@@ -1,6 +1,7 @@
 import React from "react";
-import Button from "./Button";
 import { FiPhoneCall } from "react-icons/fi";
+// Components
+import NavLink from "./NavLink";
 
 const navbarArr = [
   {
@@ -14,16 +15,16 @@ const navbarArr = [
   },
 ];
 
-const index = () => {
+const Navbar = () => {
   return (
-    <nav className="w-full h-14 px-4 bg-light-bg flex flex-row items-center">
-      <div className="flex-grow">Logo</div>
-      <div className="basis-5/6	flex justify-center space-x-28">
+    <nav className="w-full h-14 px-20 bg-light flex flex-row items-center">
+      <div className="basis-40">Logo</div>
+      <div className="flex-grow	flex justify-center space-x-24">
         {navbarArr &&
-          navbarArr.map((item) => <Button key={item.text} text={item.text} />)}
+          navbarArr.map((item) => <NavLink key={item.text} text={item.text} />)}
       </div>
-      <div className="flex-grow cursor-pointer font-medium text-sm flex items-center space-x-3">
-        <span>+91 90870 76769</span>
+      <div className="cursor-pointer font-medium text-sm flex items-center space-x-4">
+        <span>(+91) 90870 76769</span>
         <div className="p-2.5 rounded-full shadow-md bg-white">
           <FiPhoneCall className="text-primary" />
         </div>
@@ -32,4 +33,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Navbar;

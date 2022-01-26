@@ -1,14 +1,16 @@
 import React from "react";
+import Header from "../Header";
 
 // Components
-import Navbar from "../Navbar/index";
+import Navbar from "../Navbar";
 
-const index = () => {
+const Layout = () => {
   return (
-    <div>
+    <div className="!text-secondary">
       <Navbar />
+      <Header />
     </div>
   );
 };
 
-export default index;
+export default Layout;

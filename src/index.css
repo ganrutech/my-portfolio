@@ -6,12 +6,18 @@
 
 body {
   margin: 0;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@layer base {
+  .container-div {
+    @apply w-full px-20;
+  }
+  .text--orange {
+    @apply text-base text-orange-400 font-semibold;
+  }
+  .text--primary {
+    @apply capitalize font-semibold text-primary;
+  }
 }
