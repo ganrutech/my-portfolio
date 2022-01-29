@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 
 const navbarArr = [
   {
-    text: "services",
+    text: "technologies",
   },
   {
     text: "work",
@@ -18,7 +18,7 @@ const navbarArr = [
 const Navbar = () => {
   return (
     <nav className="w-full h-14 px-20 bg-light flex flex-row items-center">
-      <div className="basis-40">Logo</div>
+      <div className="text-2xl">𝒢𝓊𝓇𝓊𝓅𝓇𝒶𝓀𝒶𝓈𝒽</div>
       <div className="flex-grow	flex justify-center space-x-24">
         {navbarArr &&
           navbarArr.map((item) => <NavLink key={item.text} text={item.text} />)}

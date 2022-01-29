@@ -29,7 +29,7 @@ const About = () => {
         animate={controls}
         className="self-center text--primary text-xl text-center"
       >
-        <p>Full Stack</p>
+        <p>Full-Stack</p>
         <p>Web and Mobile Application Developer</p>
       </motion.div>
       <motion.div
