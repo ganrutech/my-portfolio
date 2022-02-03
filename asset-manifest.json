@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.10d7c860.css",
-    "main.js": "/my-portfolio/static/js/main.21436cde.js",
+    "main.css": "/my-portfolio/static/css/main.df75cb89.css",
+    "main.js": "/my-portfolio/static/js/main.2637dc8d.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/profile.png": "/my-portfolio/static/media/profile.84568a0cfdf44444ada4.png",
     "static/media/paint.png": "/my-portfolio/static/media/paint.2c6e4104610b73f395f3.png",
+    "static/media/SDWAN.svg": "/my-portfolio/static/media/SDWAN.785f10d2198414a392ce.svg",
     "static/media/experience-bg.svg": "/my-portfolio/static/media/experience-bg.d0f93e01b086e9c5baa0201aff433d65.svg",
+    "static/media/ecommerce.svg": "/my-portfolio/static/media/ecommerce.0e8aa417e1850df755b2.svg",
+    "static/media/fullstack.svg": "/my-portfolio/static/media/fullstack.9d31e786aec48a7fc2d8.svg",
+    "static/media/analytics.svg": "/my-portfolio/static/media/analytics.fad4f42c10cf7a70bbb2.svg",
+    "static/media/iot.svg": "/my-portfolio/static/media/iot.9e66613925b110102844.svg",
     "static/media/logo-udemy.svg": "/my-portfolio/static/media/logo-udemy.ac64b9eb547dc3795f53173b290203d9.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.10d7c860.css.map": "/my-portfolio/static/css/main.10d7c860.css.map",
-    "main.21436cde.js.map": "/my-portfolio/static/js/main.21436cde.js.map",
+    "main.df75cb89.css.map": "/my-portfolio/static/css/main.df75cb89.css.map",
+    "main.2637dc8d.js.map": "/my-portfolio/static/js/main.2637dc8d.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d7c860.css",
-    "static/js/main.21436cde.js"
+    "static/css/main.df75cb89.css",
+    "static/js/main.2637dc8d.js"
   ]
 }
