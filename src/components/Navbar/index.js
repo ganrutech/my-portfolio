@@ -8,10 +8,10 @@ const navbarArr = [
     text: "technologies",
   },
   {
-    text: "work",
+    text: "experience",
   },
   {
-    text: "experience",
+    text: "projects",
   },
 ];
 

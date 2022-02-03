@@ -22,7 +22,7 @@ const Technologies = () => {
   const { ref, inView } = useInView({ threshold: 0.2 });
 
   return (
-    <div className="w-full h-[600px] px-20 bg-white">
+    <div className="w-full h-[600px] px-20">
       <Title title="Technologies" subtitle="- Skills -" />
 
       <div ref={ref} className="px-40 w-full h-5/6 flex items-center">
