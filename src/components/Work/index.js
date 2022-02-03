@@ -10,7 +10,7 @@ import Title from "../shared/Title";
 
 const Work = () => {
   return (
-    <div className="bg-gray-100">
+    <div id="experience" className="bg-gray-100">
       <Title title="Experience" subtitle="- Work -" />
       <div className="pb-6">
         <VerticalTimeline animate={true} lineColor="#ffd2af">

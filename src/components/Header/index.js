@@ -6,7 +6,7 @@ import ProfilePicture from "./ProfilePicture";
 
 const Header = () => {
   return (
-    <div className="h-[600px] w-full bg-light relative">
+    <div id="contact" className="h-[600px] w-full bg-light relative">
       <div className="w-full h-full p-20 flex justify-between">
         <Contact />
         <About />

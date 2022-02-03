@@ -6,16 +6,17 @@ import Navbar from "../Navbar";
 import Technologies from "../Technologies";
 import Work from "../Work";
 import Projects from "../Projects";
+import Archievements from "../Achievements";
 
 const Layout = () => {
   return (
-    <div className="bg-white !text-secondary !overflow-x-hidden">
+    <div className="mt-10 bg-white !text-secondary !overflow-x-hidden">
       <Navbar />
       <Header />
       <Technologies />
       <Work />
       <Projects />
-      <div className="w-full h-[600px] bg-green-100"></div>
+      <Archievements />
     </div>
   );
 };
