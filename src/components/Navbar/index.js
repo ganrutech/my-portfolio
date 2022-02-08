@@ -11,13 +11,13 @@ const navbarArr = [
     text: "technologies",
   },
   {
+    text: "achievements",
+  },
+  {
     text: "experience",
   },
   {
     text: "projects",
-  },
-  {
-    text: "achievements",
   },
 ];
 

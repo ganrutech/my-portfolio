@@ -24,7 +24,6 @@ const Technologies = () => {
   return (
     <div id="technologies" className="w-full h-[600px] px-20">
       <Title title="Technologies" subtitle="- Skills -" />
-
       <div ref={ref} className="px-40 w-full h-5/6 flex items-center">
         <div className="basis-1/4 grid grid-cols-3 gap-20">
           <AnimationIcon position="30vw" inView={inView}>

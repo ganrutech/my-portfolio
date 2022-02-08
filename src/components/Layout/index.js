@@ -7,6 +7,7 @@ import Technologies from "../Technologies";
 import Work from "../Work";
 import Projects from "../Projects";
 import Archievements from "../Achievements";
+import Footer from "../Footer";
 
 const Layout = () => {
   return (
@@ -14,9 +15,10 @@ const Layout = () => {
       <Navbar />
       <Header />
       <Technologies />
+      <Archievements />
       <Work />
       <Projects />
-      <Archievements />
+      <Footer />
     </div>
   );
 };
