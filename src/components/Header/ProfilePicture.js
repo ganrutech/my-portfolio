@@ -29,7 +29,7 @@ const ProfilePicture = () => {
         custom={1.6}
         initial={initialAnimationState}
         animate={controls}
-        className="w-[450px]"
+        className="w-[400px] xl:w-[450px]"
       >
         <img src={Paint} alt="bg" className="opacity-90" />
       </motion.div>
@@ -37,7 +37,7 @@ const ProfilePicture = () => {
         custom={1}
         initial={initialAnimationState}
         animate={controls}
-        className="w-[400px] absolute bottom-0"
+        className="w-[350px] xl:w-[400px] absolute bottom-0"
       >
         <img src={Profile} alt="profile" />
       </motion.div>

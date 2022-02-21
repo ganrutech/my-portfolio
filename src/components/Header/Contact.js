@@ -37,7 +37,7 @@ const Contact = () => {
         custom={1}
         initial={initialAnimationState}
         animate={controls}
-        className="text-5xl font-semibold leading-snug -tracking-wide"
+        className="text-3xl xl:text-5xl font-semibold leading-snug -tracking-wide"
       >
         <p>Hey There,</p>
         <p>I'm Guruprakash</p>

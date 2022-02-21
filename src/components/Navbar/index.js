@@ -24,9 +24,9 @@ const navbarArr = [
 const Navbar = () => {
   return (
     <div className="relative">
-      <nav className="w-full h-14 px-14 bg-light flex flex-row items-center fixed z-50 top-0">
-        <div className="text-2xl">𝒢𝓊𝓇𝓊𝓅𝓇𝒶𝓀𝒶𝓈𝒽</div>
-        <div className="flex-grow	flex justify-center space-x-10">
+      <nav className="w-full h-14 px-7 xl:px-14 bg-light flex flex-row items-center fixed z-50 top-0">
+        <div className="text-xl xl:text-2xl">𝒢𝓊𝓇𝓊𝓅𝓇𝒶𝓀𝒶𝓈𝒽</div>
+        <div className="flex-grow	flex justify-center space-x-5 xl:space-x-10">
           {navbarArr &&
             navbarArr.map((item) => (
               <NavLink key={item.text} text={item.text} />
