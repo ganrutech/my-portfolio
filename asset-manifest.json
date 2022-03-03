@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e15dd806.css",
-    "main.js": "/my-portfolio/static/js/main.51206fa2.js",
+    "main.css": "/my-portfolio/static/css/main.20ffe87d.css",
+    "main.js": "/my-portfolio/static/js/main.293bdd6d.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/award.mp4": "/my-portfolio/static/media/award.2eef3f34cb91eb41c7a9.mp4",
     "static/media/profile.png": "/my-portfolio/static/media/profile.84568a0cfdf44444ada4.png",
@@ -14,12 +14,12 @@
     "static/media/iot.svg": "/my-portfolio/static/media/iot.9e66613925b110102844.svg",
     "static/media/logo-udemy.svg": "/my-portfolio/static/media/logo-udemy.ac64b9eb547dc3795f53173b290203d9.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.e15dd806.css.map": "/my-portfolio/static/css/main.e15dd806.css.map",
-    "main.51206fa2.js.map": "/my-portfolio/static/js/main.51206fa2.js.map",
+    "main.20ffe87d.css.map": "/my-portfolio/static/css/main.20ffe87d.css.map",
+    "main.293bdd6d.js.map": "/my-portfolio/static/js/main.293bdd6d.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e15dd806.css",
-    "static/js/main.51206fa2.js"
+    "static/css/main.20ffe87d.css",
+    "static/js/main.293bdd6d.js"
   ]
 }
