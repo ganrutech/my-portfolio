@@ -21,13 +21,17 @@ const About = () => {
       controls.start(initialAnimationState);
     }
   });
+
   return (
-    <div ref={ref} className="h-full z-10 flex flex-col justify-around">
+    <div
+      ref={ref}
+      className="h-full z-10 flex flex-col space-y-8 md:space-y-0 md:justify-around"
+    >
       <motion.div
         custom={1}
         initial={initialAnimationState}
         animate={controls}
-        className="self-center text--primary text-xl text-center"
+        className="text--primary text-sm md:text-xl md:text-center"
       >
         <p>Full-Stack</p>
         <p>Web and Mobile Application Developer</p>
@@ -36,10 +40,10 @@ const About = () => {
         custom={1.2}
         initial={initialAnimationState}
         animate={controls}
-        className="self-center w-1/2 flex flex-col items-center space-y-2 text-center uppercase"
+        className="md:self-center flex flex-col items-center space-y-2 md:text-center uppercase"
       >
         <img src={UdemyLogo} alt="udemy" width={120} height="auto" />
-        <p className="font-medium">
+        <p className="font-medium text-sm md:text-base">
           React JS course certified developer - Associate
         </p>
       </motion.div>

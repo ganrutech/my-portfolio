@@ -31,13 +31,13 @@ const Contact = () => {
   return (
     <div
       ref={ref}
-      className="flex-shrink-0 z-10 w-2/3 h-full flex flex-col justify-between"
+      className="flex-shrink-0 z-10 w-2/3 h-full flex flex-col space-y-16 md:space-y-0 md:justify-between"
     >
       <motion.div
         custom={1}
         initial={initialAnimationState}
         animate={controls}
-        className="text-3xl xl:text-5xl font-semibold leading-snug -tracking-wide"
+        className="text-lg md:text-3xl xl:text-5xl font-semibold leading-snug -tracking-wide"
       >
         <p>Hey There,</p>
         <p>I'm Guruprakash</p>
@@ -47,7 +47,7 @@ const Contact = () => {
         custom={1.2}
         initial={initialAnimationState}
         animate={controls}
-        className="text--orange underline cursor-pointer"
+        className="text--orange text-sm md:text-lg underline cursor-pointer"
       >
         ganrutech@gmail.com
       </motion.p>
@@ -58,8 +58,10 @@ const Contact = () => {
         animate={controls}
         className="flex items-center space-x-2"
       >
-        <div className="text-4xl font-semibold">{diffYears(dt1, dt2)}</div>
-        <div className="font-medium leading-tight uppercase">
+        <div className="text-2xl md:text-4xl font-semibold">
+          {diffYears(dt1, dt2)}
+        </div>
+        <div className="text-base font-medium leading-tight uppercase">
           Years
           <br />
           Experience
